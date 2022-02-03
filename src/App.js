@@ -1,10 +1,11 @@
 import React from 'react';
 import FindMovies from './components/FindMovies';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <Navbar />
       <FindMovies/>
     </div>
   );
