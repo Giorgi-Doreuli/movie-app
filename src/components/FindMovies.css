@@ -1,0 +1,17 @@
+.searchMovies{
+    width: 70vw;
+    padding: 15px;
+}
+
+.searchBtn{
+    padding: 15px;
+    border: 2px;
+    border-color: black;
+}
+
+.fullPage{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
