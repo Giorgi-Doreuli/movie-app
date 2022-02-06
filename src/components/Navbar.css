@@ -1,6 +1,23 @@
 .navbar{
     display: flex;
-    justify-content: flex-end;
-    gap: 15px;
+    justify-content: space-between;
     position: fixed;
+    height: 80x;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navlinks{
+    display: flex;
+    gap: 15px;
+}
+
+.navlink{
+    cursor: pointer;
+}
+
+.logo{
+    font-size: 2rem;
+    margin-left: 10px;
 }

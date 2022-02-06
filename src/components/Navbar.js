@@ -3,12 +3,11 @@ import './Navbar.css'
 
 function Navbar() {
   return(
-  <div>
-      <div className='navbar'>
-            <h3>Movies</h3>
-            <h3>Favourites</h3>
+      <div className='navbar' id = 'navbar'>
+        <div className='logo'>
+            <i class="fas fa-film"></i>    Movie Collection
+        </div>
       </div>
-  </div>
   )
 }
 
