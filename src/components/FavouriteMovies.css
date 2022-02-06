@@ -1,0 +1,7 @@
+.favouriteMovies{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100vw;
+    margin-top: 30px;
+}
