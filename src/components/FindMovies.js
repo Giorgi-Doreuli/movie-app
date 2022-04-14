@@ -22,6 +22,7 @@ function FindMovies() {
         const finalMovie = await response.json();
         setPosts(finalMovie.Search);
     }
+    
 
    
     
