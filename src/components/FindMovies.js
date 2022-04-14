@@ -16,14 +16,14 @@ function FindMovies() {
   }
   
     const getMovie  = async (movies) => {
-      const url = 'https://www.omdbapi.com/?s=' + movies + '&apikey=58ab96e8';
+      const url = 'http://www.omdbapi.com/?s=' + movies + '&apikey=58ab96e8';
 
         const response = await fetch (url);
         const finalMovie = await response.json();
         setPosts(finalMovie.Search);
     }
   
-    
+
 
    
     
